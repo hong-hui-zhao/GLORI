@@ -1,5 +1,4 @@
-Here’s a clear, professional **`README.md`** draft for your GitHub repository to document your process of reproducing **GLORI** (Glyoxal and Nitrite-based RNA sequencing) data analysis.
-It’s written in English, concise yet informative, following the style of a good scientific bioinformatics project.
+
 
 ---
 
