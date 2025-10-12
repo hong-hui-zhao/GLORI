@@ -6,7 +6,7 @@
 # GLORI: Reproducing the Analysis Pipeline
 
 This repository aims to **reproduce and understand the analysis pipeline of GLORI** (Glyoxal and Nitrite-based RNA sequencing), a transcriptome-wide technology for **absolute quantification of m⁶A at single-base resolution**.  
-The reproduction is performed by re-implementing the computational steps based on the official [`GLORI-tools`](https://github.com/liucongcas/GLORI-tools)and the descriptions in the original paper.
+The reproduction is performed by re-implementing the computational steps based on the official [GLORI-tools (official repo)](https://github.com/liucongcas/GLORI-tools) and the descriptions in the original paper.
 
 ---
 
@@ -141,7 +141,7 @@ GLORI-reproduce/
 ## 📚 References
 
 * Wang et al., *Nature Biotechnology*, 2023 — GLORI original paper
-* [GLORI-tools (official repo)](https://github.com/sxjscience/GLORI-tools)
+* [GLORI-tools (official repo)](https://github.com/liucongcas/GLORI-tools)
 * Trim Galore documentation: [https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)
 * STAR manual: [https://github.com/alexdobin/STAR](https://github.com/alexdobin/STAR)
 
