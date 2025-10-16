@@ -6,6 +6,10 @@ GLORI 在对参考数据进行了转化，其首先使用NCBI 数据提供的 GT
 
 其次，NCBI 的 GTF 文件中染色体名称采用原始命名方式（如 `1, 2, MT`），而 UCSC 风格的染色体名称是加了 `chr` 前缀的（如 `chr1, chr2, chrM`），如果直接使用 UCSC 的 GTF，而下游分析使用的是 NCBI 的基因组序列或比对结果，染色体名不匹配就会导致工具无法正确识别或定位基因。通过自行转换，可以在保持 NCBI 最新基因组和注释完整性的同时，将染色体名统一为 UCSC 风格，总的来说，自行转换的目的就是**在保证基因组版本和注释一致性的前提下，实现工具兼容性和数据完整性**，而直接使用 UCSC 文件可能在版本、坐标或注释完整性上存在差异。
 
+### 小鼠的下载途径：https://ftp.ncbi.nlm.nih.gov/refseq/M_musculus/annotation_releases/GCF_000001635.27-RS_2024_02/
+### 人类的下载途径：https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/annotation_releases/109.20190905/GCF_000001405.39_GRCh38.p13/
+
+
 转化分为三个步骤
  
 step 1： 建立NCBI 染色体名和UCSC 染色体名的映射关系
