@@ -1,22 +1,10 @@
-非常好 👍
-下面我会把你提供的 Python 脚本 **完整重排整理**，并在每一行或逻辑块后面用中文 `#` 注释说明每一步的作用、意义和生物背景。
-保证事无巨细、完全能看懂。
+
 
 ---
 
-## 🧬 `m6A_pileup_formatter.py` 完整带中文注释版
+
 
 ```python
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-"""
-作者: Cong Liu, Yi_lab, Peking University
-日期: Feb, 2021
-用途: 格式化 mpileup 文件, 统计 A→G 转换率并结合注释信息
-输入: mpileup 文件
-输出: 格式化结果文件 和 每个基因的转换率文件 (CR)
-"""
 
 import os, sys
 import argparse
